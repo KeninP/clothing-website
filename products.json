@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Kurta Pajama",
+    "category": "Kurta Pajama",
+    "price": 1199,
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80",
+    "description": "Traditional Indian Kurta Pajama set for men. Comfortable and stylish."
+  },
+  {
+    "id": 2,
+    "name": "Saree",
+    "category": "Saree",
+    "price": 2499,
+    "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80",
+    "description": "Elegant silk saree for festive occasions. Available in multiple colors."
+  },
+  {
+    "id": 3,
+    "name": "Lehenga Choli",
+    "category": "Lehenga Choli",
+    "price": 3499,
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=400&q=80",
+    "description": "Designer lehenga choli for weddings and parties."
+  },
+  {
+    "id": 4,
+    "name": "Gold Earrings",
+    "category": "Accessories",
+    "price": 799,
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    "description": "Elegant gold-plated earrings to complete your festive look."
+  },
+  {
+    "id": 5,
+    "name": "Kids Kurta Set",
+    "category": "Kids",
+    "price": 999,
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80",
+    "description": "Adorable kurta set for kids. Soft, comfortable, and stylish."
+  },
+  {
+    "id": 6,
+    "name": "Leather Mojaris",
+    "category": "Footwear",
+    "price": 1299,
+    "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80",
+    "description": "Handcrafted leather mojaris for a traditional touch."
+  },
+  {
+    "id": 7,
+    "name": "Denim Jacket",
+    "category": "Western Wear",
+    "price": 1999,
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80",
+    "description": "Trendy denim jacket for a casual western look."
+  },
+  {
+    "id": 8,
+    "name": "Designer Handbag",
+    "category": "Bags",
+    "price": 2599,
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80",
+    "description": "Premium designer handbag to elevate your style."
+  },
+  {
+    "id": 9,
+    "name": "Luxury Watch",
+    "category": "Watches",
+    "price": 4999,
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    "description": "Elegant luxury watch for a timeless statement."
+  }
+]
