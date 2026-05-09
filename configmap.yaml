@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: clothing-config
 data:
-  APP_NAME: "Kenin P Clothing"
+  APP_NAME: "Kenny clothing"
   PORT: "4000"
   SALE_MESSAGE: "Mega Sale 2026 Flat off upto 25% off"
