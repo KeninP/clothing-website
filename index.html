@@ -9,7 +9,7 @@
 <body>
   <header>
     <nav class="main-nav">
-      <div class="brand">Kenin P clothing</div>
+      <div class="brand">Oscar Clothing</div>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#catalog">Shop</a></li>
@@ -335,12 +335,16 @@
         orderMsgDiv.innerHTML = '<span style="color:red;">Order failed. Try again.</span>';
       });
     }
-
-<script>
-  fetch('/config')
-    .then(res => res.json())
-    .then(data => {
-      document.getElementById('sale-banner').textContent = data.saleMessage;
-    });
-</script>
+  </script>
 </body>
+</html>
+ </script>
+  <script>
+    fetch('/config')
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('sale-banner').textContent = data.saleMessage;
+      });
+  </script>
+</body>       
+</html>     
