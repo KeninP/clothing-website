@@ -18,7 +18,7 @@
       </ul>
     </nav>
   </header>
-  <div class="promo-banner">Festive Sale: Up to 10% Off on Select Styles!</div>
+  <div class="promo-banner" id="sale-banner">Festive Sale: Up to 10% Off on Select Styles!</div>
   <main>
     <section id="home">
       <div class="hero parallax">
@@ -338,3 +338,11 @@
   </script>
 </body>
 </html>
+<script>
+  fetch('/config')
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById('sale-banner').textContent = data.saleMessage;
+    });
+</script>
+</body>
