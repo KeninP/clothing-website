@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: clothing-config
+data:
+  APP_NAME: "Kenin P Clothing"
+  PORT: "4000"
+  SALE_MESSAGE: "Festive Sale: Up to 50% off!"
