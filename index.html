@@ -343,7 +343,7 @@
     fetch('/config')
       .then(res => res.json())
       .then(data => {
-        document.getElementById('sale-banner').textContent = data.saleMessage;
+        document.getElementById('sale-banner').textContent = data.saleMessage; data.appname;
       });
   </script>
 </body>       
