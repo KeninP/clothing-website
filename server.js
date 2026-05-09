@@ -4,7 +4,13 @@ import bodyParser from 'body-parser';
 import fs from 'fs';
 
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
+const APP_NAME = process.env.APP_NAME || "Kenin P Clothing";
+const SALE_MESSAGE = process.env.SALE_MESSAGE || "Festive Sale";
+
+console.log(`App: ${APP_NAME}`);
+console.log(`Sale: ${SALE_MESSAGE}`);
+console.log(`Port: ${PORT}`);
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -53,6 +59,13 @@ app.post('/orders', (req, res) => {
   const order = req.body;
   saveOrder(order);
   res.status(201).json({ message: 'Order received', order });
+});
+
+app.get('/config', (req, res) => {
+  res.json({
+    appName: process.env.APP_NAME,
+    saleMessage: process.env.SALE_MESSAGE
+  });
 });
 
 app.listen(PORT, () => {
