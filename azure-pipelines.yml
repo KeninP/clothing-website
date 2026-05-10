@@ -21,7 +21,7 @@ stages:
     - task: AzureCLI@2
       displayName: 'Build and Push Docker Image'
       inputs:
-        azureSubscription: 'Azure subscription 1'
+        azureSubscription: 'AzureServiceConnection'
         scriptType: 'bash'
         scriptLocation: 'inlineScript'
         inlineScript: |
@@ -38,7 +38,7 @@ stages:
     - task: AzureCLI@2
       displayName: 'Deploy to AKS'
       inputs:
-        azureSubscription: 'Azure subscription 1'
+        azureSubscription: 'AzureServiceConnection'
         scriptType: 'bash'
         scriptLocation: 'inlineScript'
         inlineScript: |
